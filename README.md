@@ -76,7 +76,7 @@ import:
 - Given here : https://computingforgeeks.com/how-to-install-and-configure-zsh-shell-on-linux/?expand_article=1
 - Change your zshrc file with mine.
 ```
-$ cp ~/Terminal_Rice/zsh/.zshrc ~/
+$ cp ~/Terminal_Rice/.zshrc ~/
 ```
 
 ## Configuring Vim
