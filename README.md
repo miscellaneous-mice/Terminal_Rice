@@ -73,11 +73,38 @@ import:
   ```
 
 ## Configuring zsh
-- Given here : https://computingforgeeks.com/how-to-install-and-configure-zsh-shell-on-linux/?expand_article=1
+- Install zsh and dependencies
+```
+$ sudo pacman -S zsh wget
+```
+- we need to make it our default shell
+```
+$ sudo usermod $USER -s /usr/bin/zsh
+$ logout
+```
+- Install Oh-my-zsh
+```
+$ touch ~/.zshrc
+$ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```
+- Installating useful plugins for zsh
+```
+$ cd ~/.oh-my-zsh/plugins
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+$ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
+```
 - Change your zshrc file with mine.
 ```
+$ mv ~/.zshrc ~/Backup/
 $ cp ~/Terminal_Rice/.zshrc ~/
 ```
+- Apply your zsh configuration
+```
+$ source ~/.zshrc
+```
+
+- References
+  - https://computingforgeeks.com/how-to-install-and-configure-zsh-shell-on-linux/?expand_article=1
 
 ## Configuring Vim
 - First install neovim
