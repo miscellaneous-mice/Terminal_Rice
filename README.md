@@ -131,6 +131,12 @@ $ nvim
 :TSInstall python
 ```
 **Only for python**
+- Install npm and nodejs. Update all the tools.
+```
+$ sudo pacman -Syu nodejs npm
+$ sudo npm i -g npm
+$ sudo npm i -g n
+```
 - Move customs folder to backup. Copy this repo's custom foldr to nvim configs.
 ```
 $ mv ~/.config/nvim/lua/custom ~/Backup
