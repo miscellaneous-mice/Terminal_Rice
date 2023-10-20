@@ -19,26 +19,10 @@ $ mv ~/.config/neofetch/dotfetch.conf ~/.config/neofetch/config.conf
   - https://github.com/Chick2D/neofetch-themes
     
 ## Configuring alacritty themes
-- Copy the config file to your alacritty config file
-```
-$ mv ~/.config/alacritty/alacritty.yml ~/Backup
-$ cp ~/Terminal_Rice/alacritty/alacritty.yml ~/.config/alacritty/
-```
-- First go into alacritty config directory
-```
-$ cd ~/.config/alacritty/
-```
-- Git clone this repo
-```
-$ git clone https://github.com/eendroroy/alacritty-theme.git
-```
-- Change the existing import line in ```~/.config/alacritty/alacritty.yml```
-```
-import:
- - ~/.config/alacritty/alacritty-theme/themes/{theme}.yaml
-```
+- For Using [eendroroy theme](https://github.com/eendroroy/alacritty-theme) use alacritty_eendroroy
+- For Using [nord theme] use alacritty_nord
+- For Using [catppuccin theme](https://github.com/catppuccin/alacritty) use alacritty_catppuccin
 - References
-  - https://github.com/eendroroy/alacritty-theme
   - https://fuchsia.googlesource.com/third_party/github.com/alacritty/alacritty/+/refs/tags/v0.10.0-rc2/alacritty.yml
 
 ## To make rice setup complete
