@@ -130,6 +130,17 @@ $ nvim
 :TSInstallInfo
 :TSInstall python
 ```
+**Only for python**
+- Move customs folder to backup. Copy this repo's custom foldr to nvim configs.
+```
+$ mv ~/.config/nvim/lua/custom ~/Backup
+$ cp -r ~/Terminal_Rice/custom ~/.config/nvim/lua/
+```
+- Run these commands
+```
+:MasonInstallAll
+```
+- Quit and run the nvim.
 
 
 
