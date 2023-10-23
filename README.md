@@ -132,6 +132,10 @@ $ cp -r ~/Terminal_Rice/custom ~/.config/nvim/lua/
 ```
 - Quit and run the nvim.
 
+- References
+  - https://youtu.be/Mtgo-nP_r8Y?si=U47CeRvPBzUUC3c3
+  - https://youtu.be/4BnVeOUeZxc?si=9HEfYz-SDExRR5Y4
+
 
 
 
