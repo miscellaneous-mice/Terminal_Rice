@@ -133,7 +133,7 @@ $ cp -r ~/Terminal_Rice/custom ~/.config/nvim/lua/
 :MasonInstallAll
 ```
 - Quit and run the nvim.
-- For C++ You can change the formatting by
+- For C++ You can change the formatting. First go to your C++ project directory, then
 ```
 $ ~/.local/share/nvim/mason/bin/clang-format --style microsoft  --dump-config > .clang-format
 ```
