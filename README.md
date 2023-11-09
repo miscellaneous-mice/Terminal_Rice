@@ -108,7 +108,6 @@ $ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 ```
 $ nvim
 ```
-- To set theme ```space t h``` -> Set theme
 - Configuring syntax highlighting
 ```
 :TSInstallInfo
@@ -128,6 +127,7 @@ $ sudo npm i -g n
 $ mv ~/.config/nvim/lua/custom ~/Backup
 $ cp -r ~/Terminal_Rice/custom ~/.config/nvim/lua/
 ```
+- To set theme ```space t h``` -> Set theme
 - Run these commands
 ```
 :MasonInstallAll
