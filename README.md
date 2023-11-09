@@ -108,7 +108,7 @@ $ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 ```
 $ nvim
 ```
-- To set theme ```space t h``` -> Set cappuccin
+- To set theme ```space t h``` -> Set theme
 - Configuring syntax highlighting
 ```
 :TSInstallInfo
