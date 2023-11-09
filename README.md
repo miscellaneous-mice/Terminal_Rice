@@ -117,7 +117,7 @@ $ nvim
 ```
 
 **Only for C++ and Python**
-- Install npm and nodejs. Update all the tools.
+- Install npm, nodejs and clang. Update all the tools.
 ```
 $ sudo pacman -Syu nodejs npm clang
 $ sudo npm i -g npm
