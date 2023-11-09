@@ -113,11 +113,13 @@ $ nvim
 ```
 :TSInstallInfo
 :TSInstall python
+:TSInstall cpp
 ```
-**Only for python**
+
+**Only for C++ and Python**
 - Install npm and nodejs. Update all the tools.
 ```
-$ sudo pacman -Syu nodejs npm
+$ sudo pacman -Syu nodejs npm clang
 $ sudo npm i -g npm
 $ sudo npm i -g n
 ```
