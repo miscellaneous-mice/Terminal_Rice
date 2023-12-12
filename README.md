@@ -98,6 +98,7 @@ $ sudo pacman -S neovim
 ```
 $ mkdir -p ~/Backup/nvim
 $ mv ~/.config/nvim/* ~/Backup/nvim
+$ rm -rf ~/.local/share/nvim
 ```
 - Now install NvChad
 ```
