@@ -77,10 +77,10 @@ $ cd ~/.oh-my-zsh/plugins
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 $ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
 ```
-- Change your zshrc file with mine.
+- Copy the basic zsh configurations
 ```
-$ mv ~/.zshrc ~/Backup/
 $ cp ~/Terminal_Rice/.zshrc ~/
+$ cp ~/Terminal_Rice/.zprofile ~/
 ```
 - Apply your zsh configuration
 ```
