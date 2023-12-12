@@ -29,7 +29,7 @@ font:
 
 
 import:
- - ~/.config/alacritty/alacritty-theme/themes/nord.yaml
+ - ~/.config/alacritty/alacritty-theme/themes/{theme}.yaml
 
 # cursor:
 #   style: Underline
