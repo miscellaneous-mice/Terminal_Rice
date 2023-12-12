@@ -20,7 +20,6 @@ $ mv ~/.config/neofetch/dotfetch.conf ~/.config/neofetch/config.conf
     
 ## Configuring alacritty themes
 - For Using [eendroroy theme](https://github.com/eendroroy/alacritty-theme) use alacritty_eendroroy
-- For Using nord theme use alacritty_nord
 - For Using [catppuccin theme](https://github.com/catppuccin/alacritty#usage) use alacritty_catppuccin
 - References
   - https://fuchsia.googlesource.com/third_party/github.com/alacritty/alacritty/+/refs/tags/v0.10.0-rc2/alacritty.yml
